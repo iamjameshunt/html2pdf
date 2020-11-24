@@ -8,4 +8,4 @@ RUN apt-get update \
  && apt-get clean
 
 WORKDIR /out
-ENTRYPOINT wkhtmltopdf
+ENTRYPOINT ["wkhtmltopdf"]
